@@ -232,6 +232,7 @@ ingress:
 #
 
 emissary-ingress:
+  install: true
   nameOverride: ambassador
   fullnameOverride: ambassador
   replicaCount: 1
